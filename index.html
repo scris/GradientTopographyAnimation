@@ -3,56 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Gradient Topography Animation | Demo 1 | Codrops</title>
+		<title>NWA Gradients</title>
 		<meta name="description" content="Shape animation based on a work called Gradient Topography by Polar Vector" />
 		<meta name="keywords" content="svg, animation, organic, shape, animejs, web design, web development, demo" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="author" content="Scris Game Studio & Codrops" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400:700:900" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 		<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
 	</head>
 	<body class="demo-1">
-		<svg class="hidden">
-			<symbol id="icon-arrow" viewBox="0 0 24 24">
-				<title>arrow</title>
-				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
-			</symbol>
-			<symbol id="icon-drop" viewBox="0 0 24 24">
-				<title>drop</title>
-				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
-			</symbol>
-			<symbol id="icon-github" viewBox="0 0 32.6 31.8">
-				<title>github</title>
-				<path d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"/>
-			</symbol>
-			<symbol id="icon-arrowback" viewBox="0 0 24 18">
-				<title>arrow-back</title>
-				<path d="M7.839 17.296a.847.847 0 0 0 1.21 0 .853.853 0 0 0 0-1.198L2.914 9.965h20.238A.843.843 0 0 0 24 9.118a.852.852 0 0 0-.847-.86H2.915l6.133-6.12a.868.868 0 0 0 0-1.21.847.847 0 0 0-1.21 0L.255 8.513a.833.833 0 0 0 0 1.197l7.585 7.586z" />
-			</symbol>
-		</svg>
+
 		<main>
-			<div class="content content--fixed">
-				<header class="codrops-header">
-					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/DecorativeLetterAnimations/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=33779" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-					</div>
-					<h1 class="codrops-header__title">Gradient Topography Animation</h1>
-				</header>
-				<a class="github" href="https://github.com/codrops/GradientTopographyAnimation/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
-				<p class="info">Inspired by <a href="https://polarvectors.com/shop/textures/gradient-topography/">Gradient Topography</a></p>
-			</div>
+			
 			<div class="content">
-				<nav class="menu">
-					<a href="#" class="menu__item">Analysis</a>
-					<a href="#" class="menu__item">Models</a>
-					<a href="#" class="menu__item">Philosophy</a>
-					<a href="#" class="menu__item">Comparisons</a>
-					<a href="#" class="menu__item">Specimens</a>
-					<a href="#" class="menu__item">Projects</a>
-				</nav>
+				
 				<svg class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800" xmlns:pathdata="http://www.codrops.com/">
 					<defs>
 						<linearGradient id="gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -136,33 +101,7 @@
 					</g>
 				</svg>
 			</div>
-			<div class="content content--reveal">
-				<div class="content__inner">
-					<h2 class="content__title">Analysis</h2>
-					<h3 class="content__subtitle">The rapid handle injects into the bashful lift.</h3>
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Models</h2>
-					<h3 class="content__subtitle">The sympathetic picture adds into the freezing gift.</h3>
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Philosophy</h2>
-					<h3 class="content__subtitle">The dimwitted purchase can't fasten the poem.</h3>
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Comparisons</h2>
-					<h3 class="content__subtitle">The melancholy building really paused the relation.</h3>
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Specimens</h2>
-					<h3 class="content__subtitle">The gabby priority handles into the deadly dot.</h3>
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Projects</h2>
-					<h3 class="content__subtitle">The hungry purple names into the low tower.</h3>
-				</div>
-				<button class="content__close"><svg class="icon icon--arrowback"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use></svg></button>
-			</div>
+		
 		</main>
 		<script src="js/charming.min.js"></script>
 		<script src="js/anime.min.js"></script>
